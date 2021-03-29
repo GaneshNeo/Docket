@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int common_elemets(int a[],int b[][],int n)
 {
     int i,j,c[50];

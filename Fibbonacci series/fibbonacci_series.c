@@ -2,7 +2,12 @@
 int main()
 {
     int a=0,b=1,i,temp,n;
-    scanf("%d\n",&n);
+
+    printf("\nEnter the series length : ");
+    scanf("%d",&n);
+
+    printf("Fibbonacci Series..... ");
+    
     if(n == 1)
     {
         printf("%d",a);
@@ -22,5 +27,6 @@ int main()
             b=temp;
         }
     }
+    printf("\n\n");
     return 0;
 }
