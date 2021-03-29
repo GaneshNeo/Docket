@@ -1,21 +1,4 @@
-#include<stdio.h>
-#include<ctype.h>
-#include<string.h>
 
-int cmp_strings(char a[],char b[])
-{
-    int i,flag=0;
-    char m,n;
-
-    for(i=0; (a[i] !='\0') && (b[i] !='\0');i++)
-    {       
-        m=tolower(a[i]);
-        n=tolower(b[i]);
-
-        if(m != n)
-        {
-            flag=1;
-            break;
         }
     }
     if(flag == 0)
@@ -41,10 +24,4 @@ int main()
         printf("Enter the First string : ");
         scanf("%s",a);
         printf("Enter the Second string : ");
-        scanf("%s",b);
-        
-        cmp_strings(a,b);
-    }
-    printf("\n\n");
-    return 0;
-}
+        scanf("%s
