@@ -20,7 +20,7 @@ int main()
     printf("\nEnter the Details...\n\n");
 
 
-    for(i=0;i<n;++i)
+    for(i=0;i<n;i++)
     {
         (stu+i)->total=0;
 
@@ -46,10 +46,10 @@ int main()
 
     printf("Name\tRoll Number\tDC\tME\tCA\tLIC\tED\taverage\ttotal\n\n");
 
-    for(i=0;i<n;i++)
+    for(i=0;i<n;++i)
     {
         
-        printf("%s\t%d\t\t%.2f\t",stu[i].name,stu[i].rollnum);
+        printf("%s\t%d\t\t",stu[i].name,stu[i].rollnum);
         for(j=0;j<5;j++)
         {
             printf("%.2f\t",stu[i].marks[j]);
