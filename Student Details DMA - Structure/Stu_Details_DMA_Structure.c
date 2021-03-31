@@ -19,7 +19,6 @@ int main()
 
     printf("\nEnter the Details...\n\n");
 
-
     for(i=0;i<n;i++)
     {
         (stu+i)->total=0;
