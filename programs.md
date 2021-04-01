@@ -2,7 +2,7 @@
 
 > To view the programs go to [Docket](https://github.com/GaneshNeo/Docket.git)
 
-## Conditional Statements
+> ## Conditional Statements
 
 1. Number of coins for N cents
 2. Odd or Even
@@ -11,7 +11,7 @@
 5. Swap 2 numbers
 6. Swap second and last digit of a number
 
-## loops
+> ## loops
 
 1. Amstrong number
 2. Binary Addition
@@ -26,18 +26,22 @@
 11. Unique Number 
 12. Stock Price
 
-## Array
+> ## Array
 
 1. Common Elements in 3 Sorted Arrays
 2. Missing Number
 3. Most Frequent Elements
+4. Sum of possible pair for given resultant
+5. Drop Least Value element in an Array
+6. Merge Two Arrays
+7. Array -> Two sub Array with same sum
 
-## Structures
+> ## Structures
 
 1. Student Details
 2. Student Details - DMA
 
-## Strings
+> ## Strings
 
 1. Capitalize Repetitive Characters
 2. Compare Two strings
@@ -47,44 +51,60 @@
 6. Reverse String Preserving the positions
 7. String Compare
 8. string reverse
+9. change position of first two words to Last
 
-## Miscellaneous
+> ## Miscellaneous
 
 1. Z - Interview MCQ's
 2. Hello World
+3. To be Downloaded
+4. Programs.md
+5. Readme.md
+6. Security.md
+7. Sanjana.java
+8. .vscode
 
-## Binary
+> ## Binary
 1. Binary Addition
 2. Unequal bits of Two Binary Numbers
 3. Given Binary Value is Set or not - Logically
 
-## Pattern
+> ## Pattern
 
 1.      1
         1 2
         1 2 3
+        1 2 3 4
+        1 2 3 4 5
     
-2.      3 2 1 
+2.      5 4 3 2 1
+        4 3 2 1
+        3 2 1 
         2 1
         1
 
-3.           1
-           1   1
-         1   2   1
-        1  3   3   1
+3.              1
+              1   1
+            1   2   1
+          1   3   3   1
+        1   4   6   4   1
 
-4.      4 3 2 1 2 3 4
-        3 2 1   1 2 3
-        2 1       1 2
-        1           1
-        1 2       2 1
-        1 2 3   3 2 1
-        1 2 3 4 3 2 1
+4.      5 4 3 2 1 1 2 3 4 5
+        4 3 2 1     1 2 3 4
+        3 2 1         1 2 3
+        2 1             1 2
+        1                 1
+        1                 1
+        1 2             2 1
+        1 2 3         3 2 1
+        1 2 3 4     4 3 2 1
+        1 2 3 4 5 5 4 3 2 1
 
 5.      A
         A B
         A B C
         A B C D
+        A B C D E
         
 6.      1
         2 7  
@@ -104,7 +124,7 @@
 
 
 8.      #           #
-        ##         ##        
+        ##         ##
         ###       ###
         ####     ####
         #####   #####
