@@ -13,7 +13,7 @@ int main()
     struct student *stu;
     int i,n,j;
     printf("\n\nEnter the Number of Student... : ");
-    scanf("%d",&n);
+ -   scanf("%d",&n);
 
     stu=(struct student *) malloc(n * sizeof(struct student));
 
@@ -22,6 +22,8 @@ int main()
     for(i=0;i<n;i++)
     {
         (stu+i)->total=0;
+        //syu[i].total = 0;
+        //*(stu+i).total = 0;
 
         printf("Name of Student %d : ",i+1);
         scanf("%s",stu[i].name);
@@ -48,7 +50,7 @@ int main()
     for(i=0;i<n;++i)
     {
         
-        printf("%s\t%d\t\t",stu[i].name,stu[i].rollnum);
+  -      printf("%s\t%d\t\t",stu[i].name,stu[i].rollnum);
         for(j=0;j<5;j++)
         {
             printf("%.2f\t",stu[i].marks[j]);
@@ -57,4 +59,4 @@ int main()
     }
 
     return 0;
-}
+}+
