@@ -52,6 +52,7 @@
 7. String Compare
 8. string reverse
 9. change position of first two words to Last
+10. Remove consecutive Vowels in a String
 
 > ## Miscellaneous
 
