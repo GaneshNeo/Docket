@@ -35,6 +35,7 @@
 5. Drop Least Value element in an Array
 6. Merge Two Arrays
 7. Array -> Two sub Array with same sum
+8. Reverse array in place
 
 > ## Structures
 
@@ -69,6 +70,47 @@
 1. Binary Addition
 2. Unequal bits of Two Binary Numbers
 3. Given Binary Value is Set or not - Logically
+
+> ## Complex
+1. Write a program to find frequency of migrating
+birds sighting. You have been asked to help study the population of birds migrating across th continent. Each type of bird you are interested in will be identified by an integer value. Each time a particular kind of birds is spotted, it's ID number will be added to your array of sighting. You would like to alble to find out which type of bird is most commom given a list of sightings. Your tasks is to print the type number of that word and if two or more types of birds are equally common, choose the type with the samllest ID number.
+       
+For Example, assume your birds sightings are of types
+arr=[1,1,2,2,3]. There aretwo of types 1 and 2, and one sighting of type 3. Pick the lower of two types seen twice: type 1.
+
+Input Format
+The first line contains an integer denoting n, the number of birds sighted and reported in the array arr.
+The second line describes arr as n space-seperated integers representing the type numbers of each birds sighted.
+Constrains: 5 <=n <= 2* 10 * 5
+It is guaranteed that each type is 1, 2, 3,4 or 5.
+Output Format
+Print the type number of the most common bird; if teo or more types of birds are equally common, choose the type with the smallest ID number.
+Sample Input 0
+
+6
+
+1 4 4 4 5 3
+
+Sample Output 0
+
+4
+
+Explanation 0
+
+The different types of birds occur in the following frequencies:
+
+Type 1: 1 bird
+
+Type 2: 0 birds
+
+Type 1: 1 bird
+
+Type 2: 0 birds
+
+Type 1: 1 bird
+
+The type number that occurs at the highest frequency is type 4, so we printf 4 as our answer.
+
 
 > ## Pattern
 
