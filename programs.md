@@ -54,16 +54,17 @@
 8. string reverse
 9. change position of first two words to Last
 10. Remove consecutive Vowels in a String
+11. Vowels -> Upper && Consonants -> Lower 
 
 > ## Miscellaneous
 
 1. Z - Interview MCQ's
 2. Hello World
 3. To be Downloaded
-4. Programs.md
-5. Readme.md
-6. Security.md
-7. Sanjana.java
+4. Programs
+5. Readme
+6. Security
+7. Sanjana
 8. .vscode
 
 > ## Binary
