@@ -55,6 +55,7 @@
 9. change position of first two words to Last
 10. Remove consecutive Vowels in a String
 11. Vowels -> Upper && Consonants -> Lower 
+12. Sum of Odd And Even Digits - String
 
 > ## Miscellaneous
 
