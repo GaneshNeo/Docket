@@ -182,11 +182,6 @@ The type number that occurs at the highest frequency is type 4, so we printf 4 a
         ##         ##
         #           #
 
-9.      1
-        2 7  
-        3 8  13 
-        4 9  14 19
-        5 10 15 20 25
 
 > To view the programs go to [Docket](https://github.com/GaneshNeo/Docket.git)
 
