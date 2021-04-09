@@ -22,7 +22,7 @@ int main()
     for(i=0;i<n;i++)
     {
         (stu+i)->total=0;
-        //syu[i].total = 0;
+        //stu[i].total = 0;
         //*(stu+i).total = 0;
 
         printf("Name of Student %d : ",i+1);
@@ -59,4 +59,4 @@ int main()
     }
 
     return 0;
-}+
+}

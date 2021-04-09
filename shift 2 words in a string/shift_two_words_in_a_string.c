@@ -12,7 +12,7 @@ int main()
 
     for(i=0;i<strlen(str) && c<2 ;i++)
     {
-        if(str[i] != ' ' && str[i+1] == ' ')
+        if(str[i] == ' ')
         {
             c++;
         }
