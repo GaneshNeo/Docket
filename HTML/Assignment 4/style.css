@@ -1,31 +1,25 @@
 body {
     background-image: url(autumn_leaves.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     margin: 70px 500px;
     width: 400px;
     height: 600px;
-    
 } 
 h2 {
     font-size: 40px;
     font-family: sans-serif;
 }
 
-.mail {
-    margin: 65px 0px 25px 0px;
+input {
+    margin: 65px 0px 0px 0px;
     width: 250px;
     height: 35px;
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.pass {
-    width: 250px;
-    height: 35px;
-    border: none;
-    border-bottom: 1px solid black;
-}
 .login
 {
     margin: 90px 0px 140px 0px;
@@ -42,3 +36,9 @@ h2 {
     background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
 }
 
+input {
+    background-color: transparent;
+}
+input::placeholder {
+    font-weight: bold;
+}
