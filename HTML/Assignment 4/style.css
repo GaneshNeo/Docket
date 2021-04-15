@@ -1,24 +1,16 @@
 body {
-    background-image: url()
-    background-size: cover;
-    background-repeat: no-repeat;
     text-align: center;
     border: 2px solid grey;
     margin: 70px 500px;
     width: 400px;
     height: 600px;
 }
-
-.bgimg {
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
 h2 {
     font-size: 40px;
     font-family: sans-serif;
+    background: -webkit-linear-gradient(#b8cbb8 10%, #b8cbb8 100%, #b465da 70%, #cf6cc9 33%, #ee609c 66%, #ee609c 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .mail {
@@ -28,6 +20,7 @@ h2 {
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
+
 .pass {
     width: 250px;
     height: 35px;
@@ -45,3 +38,8 @@ h2 {
     color: white;
     background-image: linear-gradient(to right,cyan,blue,violet);
 }
+.login:hover {
+    color: black;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+
