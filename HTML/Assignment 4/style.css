@@ -1,10 +1,19 @@
 body {
+    background-image: url(https://github.com/GaneshNeo/Docket/blob/main/HTML/Assignment%204/matt-uuBBew6g2jM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
-    border: 5px solid grey;
-    padding: 50px 100px 150px 100px;
-    margin: 100px 500px;
-    width: 200px;
-    height: 300px;
+    border: 2px solid grey;
+    margin: 70px 500px;
+    width: 400px;
+    height: 600px;
+}
+
+.bgimg {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 h2 {
@@ -12,3 +21,27 @@ h2 {
     font-family: sans-serif;
 }
 
+.mail {
+    margin: 65px 0px 25px 0px;
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.pass {
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.login
+{
+    margin: 90px 0px 140px 0px;
+    font-weight: bold;
+    width: 250px;
+    height: 40px;
+    border:none;
+    border-radius: 25px;
+    color: white;
+    background-image: linear-gradient(to right,cyan,blue,violet);
+}
