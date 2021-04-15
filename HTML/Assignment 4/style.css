@@ -1,14 +1,12 @@
 body {
+    background-image: url(autumn_leaves.jpg);
+    background-size: cover;
     text-align: center;
-    border: 2px solid grey;
     margin: 70px 500px;
     width: 400px;
     height: 600px;
-}
-body {
-    background-image: url(autumn leaves.jpg);
-    background-size: cover;
-}
+    
+} 
 h2 {
     font-size: 40px;
     font-family: sans-serif;
