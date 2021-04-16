@@ -1,6 +1,7 @@
 body {
-    background-image: url(luke-peterson-lUMj2Zv5HUE-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100;
+    background:
+       url(takashi-miyazaki-q2bHGRyJH64-unsplash.jpg)    /* image */
+       left / 400px 350px /* position / size */
+       repeat-y , no-repeat                /* repeat */
+       fixed                    /* attachment */
 }
